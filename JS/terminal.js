@@ -6,7 +6,7 @@ const COMMANDS = {
   n: "Ok, cool",
   no: "Ok, cool",
   about:
-    "Hi, I am Ishaan<br>I'm a life long learner,<br> with interests in physics, math and coding (its fun) <br> Feel free to visit my <a href ='https://github.com/JeherillaJanwar' target='_blank' style='color:#000;'> github</a>.",
+    "Hi, I am Ishaan<br>I'm a life long learner,<br> with interests in physics, math and coding (its fun) <br> Feel free to visit my <a href ='https://github.com/ishaanSh06' target='_blank' style='color:#000;'> github</a>.",
   ls: "usr&nbsp;&nbsp;&nbsp;&nbsp;home&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;&nbsp;&nbsp;&nbsp;root",
   cd: "changed directory to root..",
   "cd ..": "cd: no such file or directory",
@@ -50,7 +50,7 @@ const execute = function executeCommand(input) {
   } else if (input === "history") {
     showHist();
   } else if (input === "github") {
-    open("https://github.com/JeherillaJanwar");
+    open("https://github.com/ishaanSh06");
   } else {
     output = `<div class="terminal-line"><span class="success">➜</span> <span class="directory">~</span> ${input}</div>`;
     if (!COMMANDS.hasOwnProperty(input)) {

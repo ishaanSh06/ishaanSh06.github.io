@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jeherillajanwar.github.io/sitemap.xml
+Sitemap: https://ishaanSh06.github.io/sitemap.xml
